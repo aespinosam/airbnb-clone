@@ -1,0 +1,51 @@
+.Header{
+    background-color: white;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100vw;
+
+
+    .header__icon{
+        object-fit: contain;
+        height: 60px;
+        margin: 0;
+    }
+
+    .header__host-link{
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .header__center{
+        width: 30vw;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding: 10px;
+        height: 30px;
+        border: solid 1px lightgray;
+        border-radius: 100px;
+        input{
+            border: none;
+            width: 30vw ;
+            outline: none;
+        }
+    }
+
+    .header__right{
+        display: flex;
+        a{
+            padding: 0px 25px;
+        }
+        div{
+            padding: 0px 25px;
+        }
+        
+    }
+}
+
